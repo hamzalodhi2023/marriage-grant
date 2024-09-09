@@ -204,11 +204,18 @@ button:hover {
 
 /*? Table Started */
 
+#loader {
+  width: 100px;
+  margin-top: 50px;
+  display: none;
+}
+
 .table-div {
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 
 th {
