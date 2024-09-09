@@ -1,80 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--? GOOGLE FONTS  -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
     <!--? CSS LINK -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <title>MARRIAGE GRANT</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="logo-div">
-        <img src="logo.png" alt="" class="logo">
+      <img src="logo.png" alt="" class="logo" />
     </div>
     <h1>MARRIAGE GRANT APPLICATION DATA</h1>
     <p class="header-p">
-        <span> DIGP SOUTH ZONE KARACHI</span>
-        <br>
-        Copyright © DIGP South Zone Karachi. All Rights Reserved
+      <span> DIGP SOUTH ZONE KARACHI</span>
+      <br />
+      Copyright © DIGP South Zone Karachi. All Rights Reserved
     </p>
     <div class="input-div">
-        <input type="text" placeholder="Personal No." />
-        <input type="text" placeholder="CNIC No." />
-        <button id="searchBtn">Search</button>
-        <button id="reset_btn">Reset</button>
+      <input
+        type="text"
+        class="active"
+        id="personal-no"
+        placeholder="Personal No."
+      />
+      <input type="text" class="active" id="cnic-no" placeholder="CNIC No." />
+      <button id="search-btn">Search</button>
+      <button id="reset-btn">Reset</button>
     </div>
     <div class="table-div">
-        <table>
-            <thead>
-                <tr>
-                    <th>Name & Rank of Applicant</th>
-                    <th>Personal No.</th>
-                    <th>CNIC</th>
-                    <th>District / Unit</th>
-                    <th>Bride Name</th>
-                    <th>Claim</th>
-                    <th>App: Receiving Date</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Shaheed HC-3646 Rauf Niazi Wd/o Naseem Akhtar</td>
-                    <td>10487823</td>
-                    <td>516-66-113372</td>
-                    <td>SSP South</td>
-                    <td>Junaid Khan Niazi Son</td>
-                    <td>2nd Claim</td>
-                    <td>19-02-2024</td>
-                </tr>
-                <tr>
-                    <td>Shaheed HC-3646 Rauf Niazi Wd/o Naseem Akhtar</td>
-                    <td>10487823</td>
-                    <td>516-66-113372</td>
-                    <td>SSP South</td>
-                    <td>Junaid Khan Niazi Son</td>
-                    <td>2nd Claim</td>
-                    <td>19-02-2024</td>
-                </tr>
-                <tr>
-                    <td>Shaheed HC-3646 Rauf Niazi Wd/o Naseem Akhtar</td>
-                    <td>10487823</td>
-                    <td>516-66-113372</td>
-                    <td>SSP South</td>
-                    <td>Junaid Khan Niazi Son</td>
-                    <td>2nd Claim</td>
-                    <td>19-02-2024</td>
-                </tr>
-            </tbody>
-        </table>
+      <table>
+        <thead>
+          <tr>
+            <th>Name & Rank of Applicant</th>
+            <th>Personal No.</th>
+            <th>CNIC</th>
+            <th>District / Unit</th>
+            <th>Bride Name</th>
+            <th>Claim</th>
+            <th>App: Receiving Date</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
     </div>
-</body>
-
+  </body>
+  <script src="./index.js"></script>
 </html>

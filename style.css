@@ -128,7 +128,7 @@ body {
 .logo {
   width: auto;
   height: 100px;
-  margin: 10px auto;
+  margin: 60px auto;
 }
 
 h1 {
@@ -170,12 +170,17 @@ input {
   border: none;
   font-size: 1rem;
   color: white;
-  font-weight: 200;
+  font-weight: 400;
   border-radius: 6px;
   height: 40px;
   width: 250px;
   padding-left: 18px;
   transition: 0.7s;
+}
+
+.active:focus {
+  background-color: #fff;
+  color: #000;
 }
 
 button {
