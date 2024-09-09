@@ -113,6 +113,11 @@
   font-family: "Poppins", system-ui;
 }
 
+body {
+  background-color: #18181b;
+  color: white;
+}
+
 .logo-div {
   width: 100%;
   display: flex;
@@ -128,18 +133,121 @@
 
 h1 {
   text-align: center;
-  font-size: 35px;
-  color: #0063d4;
+  font-size: 25px;
+  color: #d3d3d3;
 }
 
 .header-p {
   text-align: center;
   line-height: 20px;
-  color: #919191;
+  color: #b8b8b8;
   font-size: 13px;
 }
 
 .header-p span {
   font-weight: 700;
   font-size: 17px;
+  color: #b8b8b8;
+}
+
+.input-div {
+  /* border: 1px solid #000; */
+  height: 50px;
+  width: 100%;
+  margin-top: 20px;
+  padding: 0px 10%;
+  gap: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+input {
+  /* border: 1px solid #000; */
+  background-color: #27272a;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+  color: white;
+  font-weight: 200;
+  border-radius: 6px;
+  height: 40px;
+  width: 250px;
+  padding-left: 18px;
+  transition: 0.7s;
+}
+
+button {
+  /* border: 1px solid #000; */
+  background-color: #1d4ed8;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 6px;
+  height: 40px;
+  width: 250px;
+  padding: 0px 10px;
+  transition: 0.7s;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3665e6;
+}
+
+/*? Table Started */
+
+.table-div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 10px;
+  text-align: left;
+  background-color: #1d4ed8;
+  color: white;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+td {
+  border: 1px solid #3f3f46;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+tr {
+  /* border: 1px solid #000; */
+  font-size: 13px;
+  padding-left: 30px;
+}
+
+tr:nth-child(even) {
+  /* border: 1px solid #000; */
+  background-color: #27272a;
+}
+
+tr:hover {
+  background-color: #52525b;
+}
+
+table {
+  /* border: 1px solid #000; */
+  width: 95%;
+  margin-top: 20px;
+  /* overflow-y: scroll; */
+}
+
+tbody tr {
+  cursor: pointer;
 }
